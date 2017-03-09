@@ -83,7 +83,9 @@ namespace XFormMD_Deploy.Services
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Learn to play guitar", Description="Noted"},
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Buy some new candles", Description="Pine and cranberry for that winter feel"},
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Complete holiday shopping", Description="Keep it a secret!"},
-				new Item { Id = Guid.NewGuid().ToString(), Text = "Finish a todo list", Description="Done"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Complete holiday shopping2", Description="Keep it a secret!2"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Complete holiday shopping3", Description="Keep it a secret!3"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Finish a todo list", Description="Done"},
 			};
 
 			foreach (Item item in _items)

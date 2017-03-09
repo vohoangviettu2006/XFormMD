@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFormMD_Deploy.UWP", "XForm
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XFormMD_Deploy\XFormMD_Deploy\XFormMD_Deploy.projitems*{47c98737-f1ed-4a56-9499-3b96a53ede29}*SharedItemsImports = 4
+		XFormMD_Deploy\XFormMD_Deploy\XFormMD_Deploy.projitems*{4f4d4168-6b5e-4223-86fd-275c79fc1ef6}*SharedItemsImports = 4
 		XFormMD_Deploy\XFormMD_Deploy\XFormMD_Deploy.projitems*{6e379a10-fb1c-459f-a6da-9a8cd2d157e3}*SharedItemsImports = 13
 		XFormMD_Deploy\XFormMD_Deploy\XFormMD_Deploy.projitems*{c753dc14-d390-49a6-b1e5-fb9a1c950cde}*SharedItemsImports = 4
 	EndGlobalSection
