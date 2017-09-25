@@ -32,7 +32,8 @@ namespace XFormMD_Deploy.Services
         }
 
         //class functions
-        /*public async Task<CustomerDetails> GetCustomerDetails(string inputStr)
+        /*
+        public async Task<CustomerDetails> GetCustomerDetails(string inputStr)
         {
             CustomerDetails returnObj = new CustomerDetails();
             XmlDocument document = new XmlDocument();
@@ -98,7 +99,8 @@ namespace XFormMD_Deploy.Services
 
             return returnObj;
         }
-
+        */
+        /*
         public async Task<DdFullData> RetrieveDdAccount(string inputStr)
         {
             //"<accountInfo><accountNum>1260900421720055</accountNum></accountInfo>
@@ -170,7 +172,6 @@ namespace XFormMD_Deploy.Services
             return returnObj;
         }
         */
-
 
         //processing functions
         public async Task<string> retrieveCustomerRefDataMgmt_in(string strKeyword)

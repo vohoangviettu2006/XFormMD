@@ -36,6 +36,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\IDInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\JobInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\EsbService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\MyHTTPWebRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\AppConfig.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\Debugging_PTUD.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\Others_PTUD.cs" />

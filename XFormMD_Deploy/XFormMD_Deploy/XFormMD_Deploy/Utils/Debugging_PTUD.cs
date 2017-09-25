@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*using Android.Util;*/
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -13,39 +14,39 @@ namespace XFormMD_Deploy.Utils
 
         /*public void WriteLog(string sErrMsg)
         {
-            string logType = "DebugLog";
-            this.WriteLog(sErrMsg, logType);
+            //string logType = "DebugLog";
+            //this.WriteLog(sErrMsg, logType);
+            Log.Info("XFormMD_Deploy", sErrMsg);
         }
         public void WriteLog(string sErrMsg, string logType)
         {
             bool continueWritingLog = false;
 
             //system allow writing log - write all log types
-            if (AppConfig.WriteWsLog == "true")
+            if (AppConfig.WriteLog == "true")
                 continueWritingLog = true;
             else {
                 //system doesnt allow writing log - dont writing debug log
-                if (logType != "DebugLog")
+                if (logType.Trim() != "Info")
                     continueWritingLog = true;
             }
 
             if (continueWritingLog)
             {
-                try
-                {
-                    string sLogFormat = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss") + " ==> ";
-                    string sErrorDate = DateTime.Now.ToString("yyyyMMdd");
-                    string sPathName = logType + "_" + sErrorDate + ".log";
-
-                    StreamWriter sw = new StreamWriter(sPathName);
-                    sw.WriteLine(sLogFormat + sErrMsg);
-                    sw.Flush();
-                    sw.Close();
+                switch (logType.Trim()) {
+                    case "Info":
+                        Log.Info("XFormMD_Deploy", sErrMsg);
+                        break;
+                    case "Warn":
+                        Log.Warn("XFormMD_Deploy", sErrMsg);
+                        break;
+                    case "Error":
+                        Log.Error("XFormMD_Deploy", sErrMsg);
+                        break;
+                    default:
+                        break;
                 }
-                catch (Exception ex)
-                {
-                    string er = ex.Message.ToString();
-                }
+                    
             }
         }        */
 
