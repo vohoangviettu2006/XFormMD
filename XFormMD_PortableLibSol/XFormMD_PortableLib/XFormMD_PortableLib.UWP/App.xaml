@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="XFormMD_PortableLib.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XFormMD_PortableLib.UWP"
+    RequestedTheme="Light">
+
+</Application>
